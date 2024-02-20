@@ -31,6 +31,11 @@ This is a classic Snake game implemented in Python using the Turtle module. In t
    cd snake-game
    ```
 
+3. Delete the `high_score.txt` file if it exists when you upload the repository:
+   ```
+   rm high_score.txt
+   ```
+
 ## Running the Game
 Run the `main.py` file using Python:
 ```

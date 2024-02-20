@@ -33,6 +33,15 @@ class Snake:
         body_part.goto(position)
         self.snake_parts.append(body_part)
 
+    def reset(self) -> None:
+        """Reset the snake to its initial state."""
+        for body_part in self.snake_parts:
+            body_part.goto(1000, 1000)
+        self.snake_parts.clear()
+        self.create_snake()
+        self.head = self.snake_parts[0]
+        
+
     def extend_tail(self) -> None:
         """Extend the snake's tail by adding a new body part."""
         self.add_body_part(self.snake_parts[-1].position())
