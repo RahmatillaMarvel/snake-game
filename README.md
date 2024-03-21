@@ -37,10 +37,26 @@ This is a classic Snake game implemented in Python using the Turtle module. In t
    ```
 
 ## Running the Game
+
+You have two options to run the game:
+
+### Option 1: Running with Python
 Run the `main.py` file using Python:
 ```
 python main.py
 ```
+
+### Option 2: Running the Executable
+If you prefer not to deal with coding and just want to play the game directly, you can download the executable file `main.exe` provided in the `dist` directory. 
+
+1. Simply navigate to the `dist` directory in the cloned repository:
+   ```
+   cd dist
+   ```
+
+2. Locate the `main.exe` file.
+3. Double-click the `main.exe` file to start playing the game.
+
 
 ## License
 This project is licensed under the [MIT License](LICENSE).
